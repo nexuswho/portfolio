@@ -65,7 +65,7 @@ export const projectsData = [
     description:
       "Worked on a Research and Development project to detect defects in textile images",
     tags: ["pandas", "numpy", "tensorflow" ],
-    imageUrl: corpcommentImg,
+    imageUrl: textile,
   },
   {
     title: "Tomato Maturity Detection",
