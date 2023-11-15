@@ -39,7 +39,7 @@ export const experiencesData = [
     description:
       "Graduated high school with 95% marks in the science stream.",
     icon: React.createElement(GiSchoolBag),
-    date: "2019",
+    date: "2021",
   },
   {
     title: "Research Intern",
@@ -47,7 +47,7 @@ export const experiencesData = [
     description:
       "I worked as a research intern at the Digital University of Kerala.I worked on a webapp to detect the maturity of tomatoes using computer vision.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
     title: "CS student at VIT Chennai",
