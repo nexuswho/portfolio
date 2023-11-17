@@ -103,7 +103,10 @@ export default function Intro() {
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://www.linkedin.com/in/karthik-vinayan/"
           target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn Profile"
         >
+          <span className="sr-only">LinkedIn Profile</span>
           <BsLinkedin />
         </a>
 
@@ -111,7 +114,10 @@ export default function Intro() {
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/nexuswho"
           target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub Profile"
         >
+          <span className="sr-only">GitHub Profile</span>
           <FaGithubSquare />
         </a>
       </motion.div>
