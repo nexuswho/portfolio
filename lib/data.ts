@@ -42,20 +42,20 @@ export const experiencesData = [
     date: "2021",
   },
   {
+    title: "CS student, VIT Chennai",
+    location: "Chennai, Tamil Nadu",
+    description:
+      "Majoring in Computer Science and Engineering with specialization in Artifical Intelligence and Machine Learning at VIT Chennai.",
+    icon: React.createElement(FaGraduationCap),
+    date: "2021 - present",
+  },  
+  {
     title: "Research Intern",
     location: "Thiruvananthapuram, Kerala",
     description:
       "I worked as a research intern at the Digital University of Kerala.I worked on a webapp to detect the maturity of tomatoes using computer vision.",
     icon: React.createElement(CgWorkAlt),
     date: "2023",
-  },
-  {
-    title: "CS student at VIT Chennai",
-    location: "Chennai, Tamil Nadu",
-    description:
-      "Majoring in Computer Science and Engineering with specialization in Artifical Intelligence and Machine Learning at VIT Chennai.",
-    icon: React.createElement(FaGraduationCap),
-    date: "2021 - present",
   },
 ] as const;
 
