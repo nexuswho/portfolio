@@ -9,6 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { CiCoffeeCup } from "react-icons/ci";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -101,13 +102,13 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/karthik-vinayan/"
+          href="https://www.buymeacoffee.com/nexuswho"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="LinkedIn Profile"
+          aria-label="Tip Jar"
         >
-          <span className="sr-only">LinkedIn Profile</span>
-          <BsLinkedin />
+          <span className="sr-only">Buy Me A Coffee</span>
+          <CiCoffeeCup />
         </a>
 
         <a
